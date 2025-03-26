@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    // 指定ECMAScript目标版本
+    "target": "ES2020",
+    // 启用类字段的定义语法
+    "useDefineForClassFields": true,
+    // 指定模块系统
+    "module": "ESNext",
+    // 指定要包含的库文件
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    // 跳过声明文件的类型检查
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    // 设置模块解析策略
+    "moduleResolution": "bundler",
+    // 允许导入带有.ts扩展名的文件
+    "allowImportingTsExtensions": true,
+    // 确保每个文件都被视为一个独立的模块
+    "isolatedModules": true,
+    // 强制检测所有文件的模块格式
+    "moduleDetection": "force",
+    // 不生成输出文件
+    "noEmit": true,
+
+    /* Linting */
+    // 启用所有严格类型检查选项
+    "strict": true,
+    // 报告未使用的局部变量
+    "noUnusedLocals": true,
+    // 报告未使用的参数
+    "noUnusedParameters": true,
+    // 防止switch语句中的case贯穿
+    "noFallthroughCasesInSwitch": true,
+    // 检查模块导入的副作用
+    "noUncheckedSideEffectImports": true
+  },
+  "include": ["src"]
+}

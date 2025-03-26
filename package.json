@@ -1,0 +1,24 @@
+{
+  "name": "snowden-request",
+  "version": "0.1.0",
+  "description": "A modern HTTP request library for browser and Node.js",
+  "type": "module",
+  "main": "dist/snowden-request.umd.js",
+  "module": "dist/snowden-request.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc && vite build",
+    "test": "vitest"
+  },
+  "peerDependencies": {
+    "axios": "^1.8.4"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.4",
+    "axios": "^1.8.4",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0",
+    "vitest": "^1.2.1"
+  }
+}
